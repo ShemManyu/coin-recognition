@@ -1,5 +1,8 @@
 # coin-recognition in matlab
 
+Image recognition problem to identify different coins in an image and output the total value of the coins in the image.
+
+
 The implementation consisted of four main parts:
 1. Loading of coin templates.The templates consisted of two images of each type of coin capturing both the heads and the tails. Each template image was loaded with imread and stored in an array.
 2. Extraction of individual coins on given image. This required an object detection approach where given the input image being able to isolate the region of the image
